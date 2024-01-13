@@ -1,6 +1,6 @@
 # PianoKeyboard - Web Development Showcase Project
 
-This project showcases first-year web development skills through the implementation of a virtual piano keyboard.
+This project showcases first-year web development skills through the implementation of a virtual piano keyboard. Time taken to complete project: 2 days or roughly 3-5 hours.
 
 ## Technologies Used
 
