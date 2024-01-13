@@ -1,0 +1,47 @@
+<!---
+    Purpose: This is a simple web browser piano that allows users to play piano on their computer.
+    Users can play by pressing the keys/buttons with their mouse, or by using their keyboard.
+--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano Keyboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/morph/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./scripts/piano.js" defer></script>
+</head>
+<body class="bg-dark">
+<!-- Piano begins here, created by buttons -->
+<div class="p-4 border mt-5">
+    <button type="button" id="a" class="btn rounded-1">A</button>
+    <button type="button" id="w" class="btn btn-outline-dark rounded-1 black ">W</button>
+    <button type="button" id="s" class="btn rounded-1">S</button>
+    <button type="button" id="e" class="btn btn-outline-dark rounded-1 black">E</button>
+    <button type="button" id="d" class="btn rounded-1">D</button>
+    <button type="button" id="f" class="btn rounded-1">F</button>
+    <button type="button" id="t" class="btn btn-outline-dark rounded-1 black">T</button>
+    <button type="button" id="g" class="btn rounded-1">G</button>
+    <button type="button" id="y" class="btn btn-outline-dark rounded-1 black">Y</button>
+    <button type="button" id="h" class="btn btn-dark rounded-1">H</button>
+    <button type="button" id="u" class="btn btn-outline-dark rounded-1 black">U</button>
+    <button type="button" id="j" class="btn rounded-1">J</button>
+    <button type="button" id="k" class="btn rounded-1">K</button>
+    <button type="button" id="o" class="btn btn-outline-dark rounded-1 black">O</button>
+    <button type="button" id="l" class="btn rounded-1">L</button>
+    <button type="button" id="p" class="btn btn-outline-dark rounded-1 black">P</button>
+    <button type="button" id=";" class="btn rounded-1">;</button>
+</div>
+<span class="d-flex flex-column align-items-center justify-content-center p-4 border mt-5">
+       <h2>Click to listen to these songs:</h2>
+    <!-- Buttons that will play already made songs -->
+    <button type="button" id="maryBtn" class="btn btn-primary align-items-center justify-content-center mb-3">
+        Mary Had a Little Lamb</button>
+    <button type="button" id="canadaBtn" class="btn btn-primary align-items-center justify-content-center mb-3">
+        O Canada</button>
+</span>
+</body>
+</html>
